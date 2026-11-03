@@ -2,7 +2,7 @@
 
 Drop in a thumbnail and see YouTube-style overlays on top of it before you upload. Live at https://safe.shovonix.dev
 
-Built by [Shovon Arifin](https://shovonix.dev). Part of the Space tools, with [Space Prompter](https://studio.shovonix.dev).
+Built by [Shovon Arifin](https://shovonix.dev). Part of the Space tools, with [Space Prompter](https://prompter.shovonix.dev).
 
 - **Checks**: size, 16:9 shape, file size (2 MB phone / 50 MB desktop upload limits), and whether busy detail sits under the timestamp badge.
 - **Safe zones**: timestamp badge areas for the home feed and the 168 px sidebar, plus the square and 1.91:1 crops used by link previews.
