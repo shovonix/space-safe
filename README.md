@@ -12,3 +12,9 @@ Built by [Shovon Arifin](https://shovonix.dev). Part of the Space tools, with [S
 Images are read in the browser and never uploaded. The previews follow YouTube's layout as of late 2026 and are a guide, not a pixel-perfect copy. Not affiliated with YouTube.
 
 Everything lives in `index.html`; there is no build step.
+
+## Licence
+
+Copyright © 2026 Shovon Arifin. All rights reserved.
+
+The code is public so you can see how Space Safe works. It is not open source: you may not copy, modify, redistribute or host it, in whole or in part, without written permission. Use the live app at the link above.
