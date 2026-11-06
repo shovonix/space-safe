@@ -30,5 +30,6 @@ Drop in a thumbnail, see YouTube-style overlays before uploading. Live at https:
 ## Workflow
 - Work on the Mac in `~/Sites/space/space-safe`. Preview locally, commit small, push to `main`.
 - Live files: `/home/safe/htdocs/safe.shovonix.dev` (CloudPanel site user `safe`). Landing page lives on the hub: `/home/shovonix/htdocs/shovonix.dev/space-safe/`.
-- That folder is NOT a git checkout yet, and this repo is private, so the server can't fetch it without a deploy key. Until a deploy key is set up (like Space Balance), ask Shovon before deploying. Files must stay owned by user `safe`.
+- Deploy: push to `main`, then on the VPS run `deploy-space safe` as root. It pulls `main` as user `safe` (fast-forward only) and checks the site returns 200.
+- Git data lives outside the web root at `/home/safe/space-safe.git` (so `.git` is never served). `landing/`, `README.md` and `CLAUDE.md` are excluded from the live folder via sparse-checkout.
 - Never edit the live files on the VPS directly.
